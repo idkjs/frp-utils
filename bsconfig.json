@@ -1,0 +1,27 @@
+{
+  "name": "frp-utils",
+  "namespace":"Frp",
+  "version": "1.2.1",
+  "sources": [
+    {
+      "dir": "react/src",
+      "files":["react.ml","react.mli"]
+    },
+    {"dir":"weak"},
+    {"dir":"examples","type":"dev"},
+    {"dir":"src","files":["Utils.re","Frp.re"]}
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+
+  ],
+  "warnings": {
+    "error" : "-27-39-6"
+  },
+  "namespace": true,
+  "refmt": 3
+}

@@ -1,0 +1,11 @@
+.DS_Store
+.merlin
+.bsb.lock
+npm-debug.log
+/lib/bs/
+/node_modules/
+_esy
+.vscode
+esy.lock
+pnpm-lock.yaml
+react/src/react.bs.js
