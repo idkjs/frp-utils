@@ -2,10 +2,10 @@
 'use strict';
 
 var Curry = require("bs-platform/lib/js/curry.js");
-var React$FrpUtils = require("../react/src/react.bs.js");
+var React$Frp = require("../react/src/react.bs.js");
 
 function eventFromPromise(promise) {
-  var match = React$FrpUtils.E.create(undefined);
+  var match = React$Frp.E.create(undefined);
   var promiseF = match[1];
   promise.then(function (x) {
           Curry._2(promiseF, undefined, {
@@ -24,11 +24,11 @@ function eventFromPromise(promise) {
 }
 
 function join(ee) {
-  return React$FrpUtils.E.$$switch(React$FrpUtils.E.never, ee);
+  return React$Frp.E.$$switch(React$Frp.E.never, ee);
 }
 
 function bind(e, f) {
-  return join(React$FrpUtils.E.map(f, e));
+  return join(React$Frp.E.map(f, e));
 }
 
 var $$Event = {
@@ -42,4 +42,4 @@ var Utils = {
 };
 
 exports.Utils = Utils;
-/* React-FrpUtils Not a pure module */
+/* React-Frp Not a pure module */

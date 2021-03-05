@@ -3,7 +3,7 @@
 
 var Curry = require("bs-platform/lib/js/curry.js");
 var Printf = require("bs-platform/lib/js/printf.js");
-var React$FrpUtils = require("../react/src/react.bs.js");
+var React$Frp = require("../react/src/react.bs.js");
 
 function gettimeofday(param) {
   return Date.now();
@@ -91,7 +91,7 @@ function pr_time(time) {
                 }), tm[2], tm[1], tm[0]);
 }
 
-var match = React$FrpUtils.E.create(undefined);
+var match = React$Frp.E.create(undefined);
 
 var send = match[1];
 
@@ -105,7 +105,7 @@ function run(param) {
   
 }
 
-var printer = React$FrpUtils.E.map(pr_time, $$event);
+var printer = React$Frp.E.map(pr_time, $$event);
 
 run(undefined);
 
