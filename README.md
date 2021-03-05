@@ -14,7 +14,7 @@ Given an absolute notion of time the [Rtime](https://erratique.ch/software/rtime
 
 ```bash
 # for yarn
-yarn add https://github.com/idkjs/rescript-frp.git
+yarn add https://github.com/idkjs/frp-utils.git
 
 # for npm
 npm i https://github.com/idkjs/rescript-frp.git
