@@ -1,6 +1,5 @@
 {
   "name": "@idkjs/frp-utils",
-  "namespace":"Frp",
   "version": "1.2.1",
   "sources": [
     {
