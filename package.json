@@ -12,7 +12,7 @@
     "react/pkg/**/*",
     "react/**/*.ml",
     "react/**/*.mli",
-    "react/**/*.bs.js",
+    "**/*.bs.js",
     "!**/dune",
     "!**/.merlin"
   ],
