@@ -1,5 +1,5 @@
 {
-  "name": "frp-utils",
+  "name": "@idkjs/frp-utils",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -12,6 +12,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^9.0.1"
+    "bs-platform": "^9.0.2"
   }
 }
