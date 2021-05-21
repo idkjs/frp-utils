@@ -1,5 +1,5 @@
 {
-  "name": "frp-utils",
+  "name": "@idkjs/frp-utils",
   "namespace":"Frp",
   "version": "1.2.1",
   "sources": [
@@ -21,6 +21,5 @@
   ],
   "warnings": {
     "error" : "-27-39-6"
-  },
-  "refmt": 3
+  }
 }
