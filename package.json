@@ -1,14 +1,28 @@
 {
   "name": "@idkjs/frp-utils",
   "version": "0.1.0",
+
+   "files": [
+    "bsconfig.json",
+    "react/opam",
+    "react/src/**/*.ml",
+    "react/src/**/*.mli",
+    "react/src/**/*.bs.js",
+    "react/doc/**/*",
+    "react/pkg/**/*",
+    "react/**/*.ml",
+    "react/**/*.mli",
+    "react/**/*.bs.js",
+    "!**/dune",
+    "!**/.merlin"
+  ],
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world"
+    "clean": "bsb -clean-world",
+    "pub": "npx np --yolo"
   },
-  "keywords": [
-    "BuckleScript"
-  ],
+  "keywords": [ "ReasonML, Rescript,OCaml" ],
   "author": "",
   "license": "MIT",
   "devDependencies": {

@@ -9,3 +9,5 @@ _esy
 esy.lock
 pnpm-lock.yaml
 react/src/react.bs.js
+examples
+*.bs.js
