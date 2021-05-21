@@ -1,8 +1,8 @@
 {
   "name": "@idkjs/frp-utils",
   "version": "0.1.0",
-
-   "files": [
+  "files": [
+    "src",
     "bsconfig.json",
     "react/opam",
     "react/src/**/*.ml",
@@ -14,6 +14,7 @@
     "react/**/*.mli",
     "**/*.bs.js",
     "!**/dune",
+    "!src/TestFrp",
     "!**/.merlin"
   ],
   "scripts": {
@@ -22,7 +23,7 @@
     "clean": "bsb -clean-world",
     "pub": "npx np --yolo"
   },
-  "keywords": [ "ReasonML, Rescript,OCaml" ],
+  "keywords": [ "ReasonML, Rescript, OCaml" ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
